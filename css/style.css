@@ -1,0 +1,221 @@
+@import url(../css/reset.css);
+
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+header img{
+    padding-top: 9px;
+    padding-right: 18px;
+}
+header img:nth-child(1){
+    padding-top: 20px;
+}
+header img :nth-child(3){
+    padding-bottom: 12px;
+}
+.profile{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.profile__image{
+    width: 170.86px;
+    height: 170.86px;
+    border-radius: 50%;
+}
+.profile__name{
+    width: 312px;
+    height: 120px;
+    color: #21243D;
+    padding-top: 43px;
+    display: flex;
+    text-align: center;
+}
+.profile__name p{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.profile__description{
+    width: 328px;
+    height: 96px;
+    padding-top: 21px;
+    display: flex;
+    text-align: center;
+
+}
+.profile__description p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.dowload-button{
+    width: 208px;
+    height: 47px;
+    margin-top: 27px;
+    background: #FF6464;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.dowload-button p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+.blog-posts{
+    width: 100%;
+    background: #EDF7FA;
+}
+h1{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 60px;
+    color: #21243D;
+    text-align: center
+}
+.blog-posts__posts{
+    height: 266px;
+    background-color: #FFFFFF;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 17px;
+}
+.blog-posts:nth-child(3){
+    padding-bottom: 38px;
+}
+.blog-posts__posts-title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #21243D;
+    padding-left: 19px;
+    padding-top: 12px;
+}
+.blog-posts__posts-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    padding-left: 19px;
+    padding-top: 19px;
+}
+.blog-posts__posts-date{
+    display: flex;
+    padding-left: 19px;
+    padding-top: 12px;
+}
+.blog-posts__posts-date p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+.barra{
+    width: 2px;
+    height: 21px;
+    background-color: #21243D;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+footer{
+
+}
+.redes-sociais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+}
+.redes-sociais img{
+    padding-left: 35px;
+}
+.redes-sociais img:nth-child(1){
+    padding-left: 0px;
+}
+.portfólio{
+    width: 100%;
+    height: 647px;
+}
+.portfólio__imagem{
+    height: 230px;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-image: url(../imagens/Rectangle\ 4.png);
+    background-size: 280px 230px;
+}
+.background-5{
+    background-image: url(../imagens/Rectangle\ 5.png);
+    background-size: 280px 230px;
+}
+.background-6{
+    background-image: url(../imagens/Rectangle\ 6.png);
+    background-size: 280px 230px;
+}
+.portfólio__imagem img{
+    width: 100%;
+}
+.borda-baixo{
+    border-bottom: 1px solid #E0E0E0;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 17px;
+}
+.blog-posts__posts-text{
+    display: flex;
+}
+.blog-posts__posts-text-date{
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.web-app{
+    color: #8695A4;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    padding-left: 22px;
+}
+footer p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 54px;
+}
+.distâcia{
+    margin-bottom: 23px;
+}
+h2{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 60px;
+    padding-left: 18px;
+    color: #21243D;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 18px;
+    color: #21243D;
+
+}
